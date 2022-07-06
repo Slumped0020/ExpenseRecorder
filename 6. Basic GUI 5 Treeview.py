@@ -53,7 +53,8 @@ helpmenu.add_command(label = 'About',command= About)
 
 #-------Donate-------#
 donatemenu = Menu(menubar)
-menubar.add_cascade(label = 'Donate', menu = donatemenu)  
+menubar.add_cascade(label = 'Donate', menu = donatemenu)
+donatemenu.add_command(label= 'Account')  
 #--------------------#
 
 """----------------------------------------------------------------"""
